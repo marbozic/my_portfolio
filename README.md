@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>aulianza.id</h1>
+  <h1>Marko Bozic' portfolio website</h1>
   <p>🔥 Personal website was built originally from scratch using Next.js, TypeScript, Tailwind CSS, SWR, Firebase and Prisma with PostgreSQL</p>
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/aulianza/aulianza.id)](https://github.com/aulianza/aulianza.id/stargazers)
@@ -83,19 +83,6 @@ The data projects on this blog are taken from the PostgreSQL database connected 
 
 ## Performance
 
-- ### PageSpeed Insights
-
-Report URL: https://pagespeed.web.dev/analysis/https-aulianza-id/pk0y6xcz25?form_factor=desktop
-
-![image](https://github.com/aulianza/aulianza.id/assets/15605885/d87a6083-caf3-4b84-ba59-975c07193a9f)
-
-- ### GTmetrix
-
-Report URL: [https://pagespeed.web.dev/analysis/https-aulianza-id/pk0y6xcz25?form_factor=desktop](https://gtmetrix.com/reports/aulianza.id/REEiduoo/)
-
-![image](https://github.com/aulianza/aulianza.id/assets/15605885/953dc131-bf52-4ef6-913c-f6eb8fb6c6a7)
-<br /><br />
-
 ## Getting Started
 
 If you are interested in running this project on your local machine, you can do so in just 3 easy steps below. Additionally, remember to update the ".env.example" file to ".env" and replace the variables with your own in the ".env" file.
@@ -105,19 +92,19 @@ If you are interested in running this project on your local machine, you can do 
 1. Clone using git
 
    ```bash
-   git clone https://github.com/aulianza/aulianza.id
+   git clone https://github.com/marbozic/my_portfolio
    ```
 
 2. Using `create-next-app`
 
    ```bash
-   npx create-next-app -e https://github.com/aulianza/aulianza.id project-name
+   npx create-next-app -e https://github.com/marbozic/my_portfolio project-name
    ```
 
 3. Using `degit`
 
    ```bash
-   npx degit aulianza/aulianza.id YOUR_APP_NAME
+   npx degit marbozic/my_portfolio YOUR_APP_NAME
    ```
 
 4. Deploy to Vercel or Netlify, etc
@@ -139,7 +126,7 @@ This repository uses several environment variables. Please copy .env.example int
 
 ```
 BUNDLE_ANALYZER=false
-SITE_URL=https://aulianza.id
+SITE_URL=https://markob-portfolio
 
 # Blog
 BLOG_API_URL=
@@ -198,4 +185,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## License
 
-Licensed under the [GPL-3.0 license](https://github.com/aulianza/aulianza.id/blob/master/LICENSE).
+Licensed under the [GPL-3.0 license](https://github.com/marbozic/my_portfolio/blob/master/LICENSE).
